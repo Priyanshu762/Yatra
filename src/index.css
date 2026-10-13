@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-ivory: #F7F5EF;
+    --bg-parchment: #EFECE1;
+    --bg-sand: #E7E2D5;
+    --forest-green: #173C32;
+    --forest-green-dark: #0F2620;
+    --terracotta: #C47A54;
+    --ink-dark: #1E2922;
+    --ink-muted: #55625A;
+    --border-stone: #D8D2C3;
+    --border-dark: #173C32;
+  }
+
+  body {
+    background-color: var(--bg-ivory);
+    color: var(--ink-dark);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+  }
+
+  p, span, label, input, select, textarea, button, table {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Subtle clean styling without harsh drop shadows */
+button, input, select, textarea, .card-box {
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+/* Clean scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F5EF;
+}
+::-webkit-scrollbar-thumb {
+  background: #C47A54;
+  border-radius: 4px;
+}
