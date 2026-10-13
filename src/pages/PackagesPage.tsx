@@ -227,7 +227,7 @@ export const PackagesPage: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="pt-4 border-t border-[#D8D2C3] flex items-center justify-between">
+                  <div className="pt-4 border-t border-[#D8D2C3] flex flex-wrap sm:flex-nowrap items-center justify-between gap-3">
                     <div>
                       <span className="text-[10px] uppercase font-bold text-[#7E8A83] block">
                         Package Price

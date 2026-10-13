@@ -88,7 +88,7 @@ export const AdminPaymentsPage: React.FC = () => {
       {/* Ledger Table */}
       <div className="bg-[#FAF8F3] border border-[#D8D2C3] rounded-2xl overflow-hidden">
         <div className="overflow-x-auto">
-          <table className="w-full text-left text-xs text-[#3E4F45]">
+          <table className="w-full min-w-[800px] text-left text-xs text-[#3E4F45]">
             <thead className="bg-[#F2EFE8] text-[10px] uppercase font-bold text-[#7A8780] tracking-wider border-b border-[#D8D2C3]">
               <tr>
                 <th className="py-3 px-4">Txn ID</th>

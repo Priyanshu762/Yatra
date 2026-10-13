@@ -249,7 +249,7 @@ export const PackageDetailPage: React.FC = () => {
 
           {/* Right Sticky Calculator */}
           <div className="lg:col-span-4">
-            <div className="sticky top-28 bg-[#FAF8F3] p-6 border-2 border-[#D8D2C3] rounded-2xl space-y-6">
+            <div className="lg:sticky lg:top-28 bg-[#FAF8F3] p-6 border-2 border-[#D8D2C3] rounded-2xl space-y-6">
               <div className="border-b border-[#D8D2C3] pb-4">
                 <span className="text-[10px] uppercase font-bold text-[#C47A54] tracking-widest block">
                   Tour Price Calculator
@@ -267,7 +267,7 @@ export const PackageDetailPage: React.FC = () => {
                 <label className="block text-xs font-bold text-[#3B4840]">
                   Number of Passengers / Family
                 </label>
-                <div className="grid grid-cols-4 gap-2">
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
                   {[1, 2, 4, 6].map((num) => (
                     <button
                       key={num}

@@ -849,7 +849,7 @@ export const CabCalculatorPage: React.FC = () => {
 
           {/* Right Column: Live Fare Estimate & Breakdown Card */}
           <div className="lg:col-span-5 space-y-6">
-            <div className="bg-[#FAF8F3] rounded-2xl border border-[#D8D2C3] p-5 sm:p-6 sticky top-28 space-y-5">
+            <div className="bg-[#FAF8F3] rounded-2xl border border-[#D8D2C3] p-5 sm:p-6 lg:sticky lg:top-28 space-y-5">
               <div className="border-b border-[#D8D2C3] pb-4">
                 <span className="text-xs uppercase font-bold tracking-wider text-[#C47A54]">
                   Transparent Rate Card
@@ -1024,7 +1024,7 @@ export const CabCalculatorPage: React.FC = () => {
         </div>
 
         <div className="overflow-x-auto bg-[#FAF8F3] rounded-2xl border border-[#D8D2C3]">
-          <table className="w-full text-left text-xs">
+          <table className="w-full min-w-[750px] text-left text-xs">
             <thead className="bg-[#F2EFE8] border-b border-[#D8D2C3] text-[11px] uppercase tracking-wider text-[#738078]">
               <tr>
                 <th className="py-3 px-4 font-bold">Vehicle Model</th>

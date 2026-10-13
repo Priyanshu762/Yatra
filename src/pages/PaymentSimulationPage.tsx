@@ -146,7 +146,7 @@ export const PaymentSimulationPage: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
           {/* Methods */}
           <div className="md:col-span-7 bg-[#FAF8F3] p-6 border border-[#D8D2C3] rounded-2xl space-y-6">
-            <div className="grid grid-cols-3 gap-2">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
               <button
                 type="button"
                 onClick={() => setSelectedMethod('Card')}

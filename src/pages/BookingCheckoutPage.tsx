@@ -323,7 +323,7 @@ export const BookingCheckoutPage: React.FC = () => {
 
           {/* Right Summary */}
           <div className="lg:col-span-4">
-            <div className="sticky top-28 bg-[#FAF8F3] p-6 border-2 border-[#D8D2C3] rounded-2xl space-y-4">
+            <div className="lg:sticky lg:top-28 bg-[#FAF8F3] p-6 border-2 border-[#D8D2C3] rounded-2xl space-y-4">
               <div className="border-b border-[#D8D2C3] pb-3">
                 <span className="text-[10px] uppercase font-bold text-[#C47A54] tracking-widest block">
                   Tour Fare Summary

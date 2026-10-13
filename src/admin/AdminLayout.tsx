@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import { IconMenu, IconClose, IconRefresh, IconArrowLeft } from '../components/Icons';
 import { useApp } from '../context/AppContext';
@@ -7,6 +7,10 @@ export const AdminLayout: React.FC = () => {
   const location = useLocation();
   const { bookings, vehicles, drivers, resetDemoData } = useApp();
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
+
+  useEffect(() => {
+    setMobileSidebarOpen(false);
+  }, [location.pathname]);
 
   const activeTripsCount = bookings.filter(
     (b) => b.bookingStatus === 'Confirmed' || b.bookingStatus === 'In Progress'
