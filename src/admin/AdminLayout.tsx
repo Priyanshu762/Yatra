@@ -43,7 +43,7 @@ export const AdminLayout: React.FC = () => {
             </div>
             <div>
               <span className="font-serif text-lg font-bold tracking-tight text-white block leading-none">
-                Yatra Atelier
+                Yatra's Atelier
               </span>
               <span className="text-[10px] uppercase tracking-[0.2em] text-[#C47A54] font-medium block mt-1">
                 Admin Console

@@ -51,7 +51,7 @@ export const Navbar: React.FC = () => {
           </div>
           <div className="flex flex-col">
             <span className="font-serif text-lg sm:text-2xl font-bold tracking-tight text-[#173C32] leading-none whitespace-nowrap">
-              Yatra Atelier
+              Yatra's Atelier
             </span>
             <span className="text-[10px] sm:text-[11px] tracking-normal text-[#C47A54] font-semibold mt-0.5 sm:mt-1 whitespace-nowrap">
               Tours & Private Cabs
