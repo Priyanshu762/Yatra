@@ -1,0 +1,10 @@
+{
+  "workspaceId": "6ad8595ec6cef5af3c4eeece",
+  "name": "Yatra",
+  "slug": "yatra",
+  "stack": "node",
+  "devCmd": "npm run dev",
+  "buildCmd": "npm run build",
+  "testCmd": "npm test",
+  "createdAt": "2026-10-21T06:19:14.996Z"
+}

@@ -13,7 +13,7 @@ export const TermsPage: React.FC = () => {
             Terms of Service
           </h1>
           <p className="text-xs text-[#637269] mt-2">
-            Effective Date: October 2026. Yatra Atelier Private Limited.
+            Effective Date: October 2026. Yatra Luxe Private Limited.
           </p>
         </div>
 
@@ -23,7 +23,7 @@ export const TermsPage: React.FC = () => {
               1. Nature of the Service
             </h2>
             <p>
-              Yatra Atelier organizes privately chauffeured travel itineraries, palace accommodations, and scholarly guided walkthroughs across sovereign destinations in India. All bookings made via this portal are subject to vehicle availability, road conditions, and security clearances in heritage zones.
+              Yatra Luxe organizes privately chauffeured travel itineraries, palace accommodations, and scholarly guided walkthroughs across sovereign destinations in India. All bookings made via this portal are subject to vehicle availability, road conditions, and security clearances in heritage zones.
             </p>
           </section>
 
@@ -32,7 +32,7 @@ export const TermsPage: React.FC = () => {
               2. Owned Fleet and Chauffeur Conduct
             </h2>
             <p>
-              All vehicles provided under Yatra Atelier packages are 100% company-owned or operated under strict sovereign audit. Chauffeurs are forbidden from soliciting commercial commissions or modifying approved routes without guest authorization. Guests are entitled to non-smoking, sanitized cabins with daily mineral water and chilled amenities.
+              All vehicles provided under Yatra Luxe packages are 100% company-owned or operated under strict sovereign audit. Chauffeurs are forbidden from soliciting commercial commissions or modifying approved routes without guest authorization. Guests are entitled to non-smoking, sanitized cabins with daily mineral water and chilled amenities.
             </p>
           </section>
 

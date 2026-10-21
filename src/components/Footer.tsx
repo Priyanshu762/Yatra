@@ -14,11 +14,11 @@ export const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-lg bg-[#EAE5D9] text-[#173C32] flex items-center justify-center font-serif text-lg font-bold border border-[#C47A54]">
-                YA
+                YL
               </div>
               <div>
                 <span className="font-serif text-2xl font-bold tracking-tight text-[#FAF7F0] block leading-none">
-                  Yatra Atelier
+                  Yatra Luxe
                 </span>
                 <span className="text-[10px] uppercase tracking-wider text-[#C47A54] font-medium block mt-1">
                   Private Tour Packages & Cabs
@@ -121,7 +121,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2 text-xs text-[#CDC7B9]">
               <li>Phone: +91 11 4982 7700</li>
               <li>WhatsApp: +91 98201 55678</li>
-              <li>Email: booking@yatraatelier.com</li>
+              <li>Email: booking@yatraluxe.com</li>
               <li>Address: 14 Barakhamba Rd, New Delhi</li>
               <li>Timing: 24 Hours Open for Active Bookings</li>
             </ul>
@@ -140,7 +140,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#A9A293]">
-          <p>© {new Date().getFullYear()} Yatra Atelier Private Limited. All Rights Reserved.</p>
+          <p>© {new Date().getFullYear()} Yatra Luxe Private Limited. All Rights Reserved.</p>
           <div className="flex items-center space-x-6 text-xs">
             <Link to="/terms" className="hover:text-white underline">
               Terms & Conditions

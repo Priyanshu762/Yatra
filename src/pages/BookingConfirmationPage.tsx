@@ -77,11 +77,11 @@ export const BookingConfirmationPage: React.FC = () => {
           <div className="bg-[#173C32] text-white p-6 sm:p-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 bg-[#EAE5D9] text-[#173C32] flex items-center justify-center font-serif text-lg font-bold border border-[#C47A54] rounded-lg">
-                YA
+                YL
               </div>
               <div>
                 <h2 className="font-serif text-2xl font-bold tracking-tight text-white leading-none">
-                  Yatra Atelier
+                  Yatra Luxe
                 </h2>
                 <span className="text-[10px] uppercase tracking-[0.25em] text-[#E8C5AF] block mt-1">
                   Confirmed Tour Voucher
@@ -197,7 +197,7 @@ export const BookingConfirmationPage: React.FC = () => {
 
             <div className="pt-4 border-t border-[#D8D2C3] flex flex-col sm:flex-row justify-between text-xs text-[#68766F] gap-2">
               <div>Customer Support Helpline: +91 11 4982 7700 (24x7)</div>
-              <div>Email: help@yatraatelier.com</div>
+              <div>Email: help@yatraluxe.com</div>
             </div>
           </div>
         </div>

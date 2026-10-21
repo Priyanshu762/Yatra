@@ -31,7 +31,7 @@ export const PaymentSimulationPage: React.FC = () => {
         packageTitle: 'Varanasi Dawn to Twilight: Spiritual Odyssey',
         destinationName: 'Varanasi',
         customerName: 'Sovereign Patron',
-        customerEmail: 'patron@yatraatelier.com',
+        customerEmail: 'patron@yatraluxe.com',
         customerPhone: '+91 98200 12345',
         pickupLocation: 'Varanasi Airport (VNS)',
         travelDate: '2026-11-05',

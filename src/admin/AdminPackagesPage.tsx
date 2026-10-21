@@ -41,7 +41,7 @@ export const AdminPackagesPage: React.FC = () => {
         'https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=1000&q=80',
         'https://images.unsplash.com/photo-1627894483216-2138af692e32?auto=format&fit=crop&w=1000&q=80'
       ],
-      overview: newOverview || 'A handcrafted private journey designed by Yatra Atelier curators.',
+      overview: newOverview || 'A handcrafted private journey designed by Yatra Luxe curators.',
       groupType: 'Private Chauffeured Journey',
       pickupPoints: ['City Airport', 'City Centre Hotel'],
       inclusions: [

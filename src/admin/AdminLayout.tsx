@@ -39,11 +39,11 @@ export const AdminLayout: React.FC = () => {
         <div className="p-6 space-y-6">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-[#EAE5D9] text-[#173C32] flex items-center justify-center font-serif text-lg font-bold border border-[#C47A54] rounded-lg">
-              YA
+              YL
             </div>
             <div>
               <span className="font-serif text-lg font-bold tracking-tight text-white block leading-none">
-                Yatra's Atelier
+                Yatra Luxe
               </span>
               <span className="text-[10px] uppercase tracking-[0.2em] text-[#C47A54] font-medium block mt-1">
                 Admin Console
@@ -166,7 +166,7 @@ export const AdminLayout: React.FC = () => {
               <div className="flex items-center justify-between pb-6 border-b border-[#234A3E]">
                 <div className="flex items-center gap-3">
                   <div className="w-8 h-8 bg-white text-[#173C32] flex items-center justify-center font-serif font-bold">
-                    YA
+                    YL
                   </div>
                   <span className="font-serif font-bold">Admin Console</span>
                 </div>

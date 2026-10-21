@@ -251,7 +251,7 @@ export const CabCalculatorPage: React.FC = () => {
       packageTitle: tripSummaryTitle,
       destinationName: destinationCity || sourceCity,
       customerName: passengerName,
-      customerEmail: passengerEmail || 'guest@yatraatelier.com',
+      customerEmail: passengerEmail || 'guest@yatraluxe.com',
       customerPhone: passengerPhone,
       pickupLocation: pickupAddress.trim() ? `${sourceCity} (${pickupAddress})` : `${sourceCity} Doorstep / Station`,
       travelDate: travelDate,
@@ -967,7 +967,7 @@ export const CabCalculatorPage: React.FC = () => {
               <div className="bg-[#EFECE4] p-3 rounded-xl border border-[#D8D2C3] text-[11px] text-[#55625A] space-y-1">
                 <div className="flex items-center gap-1.5 font-medium text-[#173C32]">
                   <IconShield className="w-3.5 h-3.5 text-[#173C32]" />
-                  <span>Yatra Atelier Cab Promise:</span>
+                  <span>Yatra Luxe Cab Promise:</span>
                 </div>
                 <div>• Zero hidden driver overtime charges before 10 PM.</div>
                 <div>• Clean AC cab with verified chauffeur in company uniform.</div>

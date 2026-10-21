@@ -13,7 +13,7 @@ export const AboutPage: React.FC = () => {
             Clean Cabs, Verified Drivers & Transparent Prices
           </h1>
           <p className="text-sm sm:text-base text-[#4E5C54] font-normal leading-relaxed">
-            Yatra Atelier was created to give Indian families and travelers a comfortable, hassle-free travel experience with 100% owned AC cabs, polite experienced drivers, and pre-booked hotels with zero hidden charges.
+            Yatra Luxe was created to give Indian families and travelers a comfortable, hassle-free travel experience with 100% owned AC cabs, polite experienced drivers, and pre-booked hotels with zero hidden charges.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ export const AboutPage: React.FC = () => {
               In conventional travel agencies, your booking is passed down through middlemen and outsourced to unknown taxi unions. The vehicle that arrives at the station or airport is often poorly maintained, and drivers often force passengers to stop at expensive commission gift shops.
             </p>
             <p>
-              At <strong>Yatra Atelier</strong>, we run our own vehicles: Dzire sedans, Innova Crysta family MPVs, luxury Tempo Travellers, and premium cars.
+              At <strong>Yatra Luxe</strong>, we run our own vehicles: Dzire sedans, Innova Crysta family MPVs, luxury Tempo Travellers, and premium cars.
             </p>
             <p>
               Our drivers are full-time employees with verified backgrounds, polite manners, and years of safe driving experience. They strictly follow trip timings, do not force any shopping stops, and ensure your family has a safe and relaxing journey.
@@ -39,7 +39,7 @@ export const AboutPage: React.FC = () => {
               <div className="aspect-[4/3] bg-[#E8E2D5] rounded-xl overflow-hidden">
                 <img
                   src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1000&q=80"
-                  alt="Yatra Atelier Tour Cabs"
+                  alt="Yatra Luxe Tour Cabs"
                   className="w-full h-full object-cover"
                 />
               </div>

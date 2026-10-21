@@ -13,7 +13,7 @@ export const PrivacyPage: React.FC = () => {
             Privacy Policy
           </h1>
           <p className="text-xs text-[#637269] mt-2">
-            Effective Date: October 2026. Yatra Atelier Private Limited.
+            Effective Date: October 2026. Yatra Luxe Private Limited.
           </p>
         </div>
 
@@ -23,7 +23,7 @@ export const PrivacyPage: React.FC = () => {
               1. Information We Collect
             </h2>
             <p>
-              When requesting an itinerary or reserving a journey with Yatra Atelier, we collect the primary traveler's name, email address, telephone contact, and designated airport/hotel pickup locations to ensure precise chauffeur dispatch.
+              When requesting an itinerary or reserving a journey with Yatra Luxe, we collect the primary traveler's name, email address, telephone contact, and designated airport/hotel pickup locations to ensure precise chauffeur dispatch.
             </p>
           </section>
 

@@ -204,7 +204,7 @@ export const ContactPage: React.FC = () => {
 
               <div className="pt-4 border-t border-[#D8D2C3] space-y-1.5 text-xs text-[#4B5951]">
                 <div><strong>Helpline:</strong> +91 11 4982 7700</div>
-                <div><strong>Direct Email:</strong> support@yatraatelier.com</div>
+                <div><strong>Direct Email:</strong> support@yatraluxe.com</div>
                 <div><strong>Office Hours:</strong> 09:00 AM to 08:00 PM (Monday to Sunday)</div>
               </div>
             </div>
